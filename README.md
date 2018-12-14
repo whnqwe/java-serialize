@@ -66,4 +66,15 @@ System.out.println(person); //address='modify'
   　　那些引用其他对象的变量将指向被复制过的新对象，而不再是原有的那些被引用的对象。
   　　换言之，深拷贝把要复制的对象所引用的对象都复制了一遍
 
+### 实现
 
+```java
+        //序列化
+        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+        ObjectOutputStream objectOutputStream = new ObjectOutputStream(byteArrayOutputStream);
+        objectOutputStream.writeObject(this);
+
+        //反序列化
+        ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(byteArrayOutputStream.toByteArray());
+        ObjectInputStream objectInputStream = new ObjectInputStream(byteArrayInputStream);
+```
