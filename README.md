@@ -69,12 +69,12 @@ System.out.println(person); //address='modify'
 ### 实现
 
 ```java
-        //序列化
-        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-        ObjectOutputStream objectOutputStream = new ObjectOutputStream(byteArrayOutputStream);
-        objectOutputStream.writeObject(this);
+//序列化
+ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+ObjectOutputStream objectOutputStream = new ObjectOutputStream(byteArrayOutputStream);
+objectOutputStream.writeObject(this);
 
-        //反序列化
-        ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(byteArrayOutputStream.toByteArray());
-        ObjectInputStream objectInputStream = new ObjectInputStream(byteArrayInputStream);
+//反序列化
+ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(byteArrayOutputStream.toByteArray());
+ObjectInputStream objectInputStream = new ObjectInputStream(byteArrayInputStream);
 ```
