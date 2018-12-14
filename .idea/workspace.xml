@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="65e990fe-6759-4d11-bb83-84651eda168b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../java-serialize/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../java-serialize/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../java-serialize/README.md" afterPath="$PROJECT_DIR$/../java-serialize/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../java-serialize/java-serialize.iml" afterPath="$PROJECT_DIR$/../java-serialize/java-serialize.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../java-serialize/pom.xml" afterPath="$PROJECT_DIR$/../java-serialize/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../java-serialize/out/" />
     <ignored path="$PROJECT_DIR$/../java-serialize/target/" />
@@ -16,15 +17,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../java-serialize/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="146">
-                <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="78" selection-end-column="82" />
+              <first_editor relative-caret-position="254">
+                <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../java-serialize/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -33,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/../java-serialize/src/main/java/javaSerializable/clone/Teacher.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="362">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="e#237#238#0" expanded="true" />
                 <element signature="e#264#265#0" expanded="true" />
@@ -71,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/../java-serialize/src/main/java/javaSerializable/clone/CloneDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="229">
-              <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+              <caret line="15" column="46" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -81,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/../java-serialize/src/main/java/javaSerializable/Person.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-486">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="71" />
+              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="71" />
               <folding>
                 <element signature="e#352#353#0" expanded="true" />
                 <element signature="e#383#384#0" expanded="true" />
@@ -131,7 +142,7 @@
         <entry file="file://$PROJECT_DIR$/../java-serialize/src/main/java/javaSerializable/parent/SuperUser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="e#139#140#0" expanded="true" />
                 <element signature="e#165#166#0" expanded="true" />
@@ -147,16 +158,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
               <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ObjectOutputStream.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../jdk1.8.0_101/src.zip!/java/io/ObjectOutputStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="241" column="37" lean-forward="false" selection-start-line="241" selection-start-column="37" selection-end-line="241" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -194,6 +195,7 @@
         <option value="$PROJECT_DIR$/../java-serialize/src/main/java/javaSerializable/clone/Student.java" />
         <option value="$PROJECT_DIR$/../java-serialize/src/main/java/javaSerializable/clone/CloneDemo.java" />
         <option value="$PROJECT_DIR$/../java-serialize/README.md" />
+        <option value="$PROJECT_DIR$/../java-serialize/pom.xml" />
       </list>
     </option>
   </component>
@@ -460,12 +462,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544775160314</updated>
-      <workItem from="1544775164896" duration="6010000" />
+      <workItem from="1544775164896" duration="6615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6010000" />
+    <option name="totallyTimeSpent" value="6615000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -511,14 +513,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../java-serialize/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../jdk1.8.0_101/src.zip!/java/io/ObjectOutputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -562,7 +556,7 @@
     <entry file="file://$PROJECT_DIR$/../java-serialize/src/main/java/javaSerializable/parent/SuperUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="e#139#140#0" expanded="true" />
             <element signature="e#165#166#0" expanded="true" />
@@ -586,7 +580,7 @@
     <entry file="file://$PROJECT_DIR$/../java-serialize/src/main/java/javaSerializable/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-486">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="71" />
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="71" />
           <folding>
             <element signature="e#352#353#0" expanded="true" />
             <element signature="e#383#384#0" expanded="true" />
@@ -619,7 +613,7 @@
     <entry file="file://$PROJECT_DIR$/../java-serialize/src/main/java/javaSerializable/clone/Teacher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="e#237#238#0" expanded="true" />
             <element signature="e#264#265#0" expanded="true" />
@@ -632,7 +626,7 @@
     <entry file="file://$PROJECT_DIR$/../java-serialize/src/main/java/javaSerializable/clone/CloneDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
-          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <caret line="15" column="46" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
           <folding />
         </state>
       </provider>
@@ -661,11 +655,19 @@
     <entry file="file://$PROJECT_DIR$/../java-serialize/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="146">
-            <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="78" selection-end-column="82" />
+          <first_editor relative-caret-position="254">
+            <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../java-serialize/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
