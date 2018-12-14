@@ -23,6 +23,11 @@ public class PersonSerializableDemo {
             person.setAge(34);
             person.setName("test");
             objectOutputStream.writeObject(person);
+            objectOutputStream.flush();
+            objectOutputStream.writeObject(person);
+            objectOutputStream.flush();
+
+            System.out.println("序列化成功"+new File("person").length());
             objectOutputStream.close();
 
         } catch (IOException e) {
